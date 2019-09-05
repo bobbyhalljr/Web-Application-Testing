@@ -27,9 +27,7 @@ function App() {
   const handleFoul = () => {
     if(strikes === 0 || strikes === 1){
       setStrikes(strikes + 1)
-    } else {
-      setStrikes(Math.max(2))
-    }
+    } 
   }
 
   const handleHit = () => {
